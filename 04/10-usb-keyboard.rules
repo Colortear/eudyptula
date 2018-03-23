@@ -1,1 +1,1 @@
-ACTION=="add", ATTRS{name}=="USB Keyboard", RUN="sudo insmod /home/$USER/eudyptula/04/hello-1.ko"
+ACTION=="add", ATTRS{product}=="USB KeyBoard", RUN+="/sbin/insmod /tmp/hello-1.ko"
