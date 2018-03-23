@@ -1,0 +1,11 @@
+--- Makefile.orig	2018-03-22 16:52:55.940004028 -0700
++++ Makefile	2018-03-22 16:48:33.074278577 -0700
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 16
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc6
++EXTRAVERSION = -colortear
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
