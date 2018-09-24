@@ -6,7 +6,7 @@
 #include <linux/fs.h>
 #include <linux/slab.h>
 
-MODULE_LICENSE("LICENSE");
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Wiley Debs <wdebs91@gmail.com>");
 MODULE_DESCRIPTION("Creates misc char device with dynamic device number");
 
@@ -79,7 +79,7 @@ static ssize_t	device_write(struct file *f,
 			ret_bytes++;
 		}
 		else {
-			return (EINVAL);
+			return (-EINVAL);
 		}
 	}
 	return (ret_bytes);
